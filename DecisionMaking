@@ -1,0 +1,87 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Decision Making</title>
+    <link rel="stylesheet" href="decision.css">
+</head>
+
+<body>
+    <hr>
+    <h1>JavaScript Decision Making</h1>
+    <hr>
+    <div class="compOpp">
+        <h2>Comparison Operators</h2>
+
+
+
+    </div>
+    <hr>
+    <div class="conditionals">
+        <h2>Conditionals: If, Else-If, and Else</h2>
+
+
+
+
+    </div>
+    <hr>
+    <div class="truthYFalseY">
+        <h2>Truth-y and False-y Values</h2>
+    </div>
+    <hr>
+    <div class="logicalAnd">
+        <h2>Logical AND</h2>
+
+
+
+    </div>
+    <hr>
+    <div class="logicalOr">
+        <h2>Logical OR</h2>
+    </div>
+    <hr>
+    <div class="logicalNot">
+        <h2>Logical NOT</h2>
+    </div>
+    <hr>
+</body>
+
+</html>
+
+-CSS-
+
+h1 {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.compOpp {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conditionals {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.truthYFalseY {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logicalAnd {
+
+color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logicalOr {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logicalNot {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
