@@ -1,0 +1,176 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Strings</title>
+    <link rel="stylesheet" href="strings.css">
+</head>
+
+<body>
+    <hr>
+    <h1>Javascript Strings</h1>
+    <hr>
+    <div class="stringBasics">
+        <p>
+        <h2>String Basics</h2>
+        <p>What the heck are Strings?</p>
+        <p>- Strings are another Primitive type in JavaScript. They represent text, and must be wrapped in
+            <u>quotes.</u>
+        </p>
+        <p>If you forget to include quotes around your text it will show an error, you can use both double and single
+            quotes...
+            best practice is to remain consistent. If you use double quotes, be consistent and use double quotes
+            throughout the file. <u>The only time you can mix single and double quotes is when you need to nest a quote
+                within a string.</u>
+            <br>
+        <p>Example: <u>"</u>Taylor said <u>'</u>give me the money<u>'</u> <u>"</u> The string is <u>Taylor said </u>the
+            nested quote is <u>Give me the money.</u></p>
+        </p>
+        </p>
+        <hr>
+    </div>
+    <div class="indicesLength">
+        <h2>Indices and Length</h2>
+        *This is kinda complicated* <br>
+        Strings are Indexed... meaning <u>Each character has a corresponding index(a positional number)</u>
+        <br>
+        <br>
+        <b>CHICKEN</b>
+        <br>
+        <p>0 1 2 3 4 5 6</p>
+        <p>Each letter represnts a number, as you can see above with the word CHICKEN</p>
+        <p>* Remember, you always start from 0... the first letter will always be represented with 0 indicie*</p>
+
+        </p>
+        <hr>
+    </div>
+    <div class="undefinedAndNull">
+        <h2>Undefined and Null</h2>
+        <p>
+            <u><b>Null</b></u> "Intentional absence of any value" | Must be assigned
+            <br>Null is an intentional lack of value, this is something that we assign. You would use this when you want
+            a value to be empty.
+        </p>
+        <p>
+            <u><b>Undefined</b></u> Variables that do not have an assigned value are undefined.
+            <br> Undefined is a way of JavaScript telling us it doesnt know.
+
+        </p>
+        <hr>
+
+    </div>
+    <div class="stringMethods">
+        <h2>String Methods</h2>
+        <p> <b>Methods are built-in actions we can perform with indivdual strings</b>
+        <p>
+            Methods help us do things like:
+        <ul>
+            <li>Searching within a string</li>
+            <li>Replacing part of a string</li>
+            <li>Changing the casing of a string</li>
+        </ul>
+        You can find all you need to know about String Methods here <a target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String
+            Methods MDN Docs</a> Methods are in the left column
+        </p>
+        Methods must have ( ) in order to work...
+        <br>
+        <u>Example:</u> <b>let msg = "leave me alone"</b> If you want to change the text to uppercase you would use a
+        String
+        Method
+        <br>
+        <b>msg.toUpperCase ( )</b>
+        <---- You must include these parenthasis or it will not work. </p>
+            <h3>String Methods with <u>Arguments</u></h3>
+            <p>
+                Some Methods accept <u>Arguments</u> that modify their behavior. Think of them as inputs that we can
+                pass in. We pass these arguments inside of the parenthesis. </p>
+            <br>
+
+            <hr>
+
+    </div>
+    <div class="stringTemplateLiterals">
+        <h2>String Template Literals</h2>
+        <p>Template Literals are strings tha allow embedded expressions, which will be evaluated and then turned into a
+            resulting string.</p>
+        <p>With template literals you use the <u>back-tick key</u> which is located above the tab key. You do not use
+            quotes.
+        </p>
+        <p> <u>Example:</u> <u>`</u>hello <u>$</u> <u>{</u> 1 + 2 + 9<u>}</u> <u>`</u></p>
+        <p><u>Result:</u> "hello 12" </p>
+        <p>*The back-tick key and the money sign are key for this to work*</p>
+    </div>
+    <hr>
+    <div class="randomNumbersAndMathObject">
+        <h2>Random Numbers and the Math Object</h2>
+        <p>Contains properties and methods for mathematical constants and funtions.
+            <br>
+            *Refer to Udemy's course for more information*
+        </p>
+        <hr>
+
+    </div>
+</body>
+
+</html>
+
+-CSS-
+
+h1 { text-align: center;
+    color: brown;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    h4 {
+        color: darkcyan;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    h3 {
+        color: chocolate;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    li {
+        color: brown;
+    }
+    .stringBasics {
+        color: rebeccapurple;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .indicesLength {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   
+     .undefinedAndNull  {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    }
+    .stringMethods {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    
+    .stringTemplateLiterals {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .randomNumbersAndMathObject {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .varName {
+        color: blue;
+        font-size: 1.2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    
