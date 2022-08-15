@@ -1,0 +1,156 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Intro</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+
+<body>
+    <hr>
+    <h1>Javascript Intro</h1>
+    <hr>
+    <div class="primType">
+        <p>
+        <h3>Primitive Types</h3>
+        <p>What the heck are Primitive Types?</p>
+        <p>- Primitive Types are the bascic building blocks in Javascript </p>
+
+        </p>
+    </div>
+    <div class="javaNum">
+        <h2>Javascript Numbers</h2>
+        <p>
+        <ul>
+            <li>JS has one number type</li>
+            <li>Positive Numbers</li>
+            <li>Negative Numbers</li>
+            <li>Whole Numbers (Integers)</li>
+            <li>Decimal Numbers</li>
+        </ul>
+        -JS computes numbers by Order Of Operations method PEMDAS Parenthasis|Exponents|Multiplication|Division
+        |Addition|Subtraction
+        <br>
+        -To find how to calculate each method... Google (JS calculations) <a target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math">MDN Web Docs</a>
+        </p>
+        <hr>
+    </div>
+    <div class="varLet">
+        <h2>Variables & Let</h2>
+        <p>
+        <ul>
+            <li>We can store a value and give it a name so that we can:</li>
+            <li>Refer back to it later</li>
+            <li>Use that value to do... stuff</li>
+            <li>Or change it later on</li>
+        </ul>
+        <h4>-Basic sytax <u> <b>let</b> someName = value ;</u></h4>
+        -Example: <b>let year = 1985 ;</b>
+        *This makes a variable called "year" and gives it a value of 1985*
+        <br>
+        This allows you to refer to <b>year</b> in your code and it will show you <b>1985</b>
+        <br>
+        -<u>Increment</u> and <u>Decrement</u>... terms for adding and subtracting to a number value. Think of keeping
+        score for a
+        basketball game: <b> score +=2 for two point shots | score +=3 for three point shots.</b>
+        <br>
+        <b>( -- ) will decrement by one</b> <b> ( ++ ) will increment by one</b> *this is commonly used*
+        </p>
+        <hr>
+
+    </div>
+    <div class="const">
+        <h2>Const- means constant(cannot be changed)</h2>
+        <p> <b>const</b> works just like <b>let</b>, except you <u>CANNOT</u> change the value
+            <br>
+            -You will get an error message if you try to change a <b>const</b>
+            <br>
+            -When would you use <b>const</b>? Think of the feet in a mile, it's a set value, this is when you would use
+            <b>const</b>, it's a fact that won't change
+        </p>
+        <hr>
+
+    </div>
+    <div class="bool">
+        <h2>Booleans</h2>
+        <p> *Booleans are Very Simple* <br>
+            <u><b>Booleans</b></u> represent <u><b>true</b></u> & <u><b>false</b></u>
+            <br>
+            Booleans are always going to be <u>lowercase</u> (Javascript specific)
+        </p>
+        <hr>
+
+    </div>
+    <div class="varName">
+        <h2>Variable Naming</h2>
+        <p>
+            Naming your identifiers correctly
+        <ul>
+            <li>The identifer must start with a letter, cannot start with a number. You can include numbers but they
+                have
+                to follow a letter</li>
+            <li> Always use camel case | Example: java<u>S</u>cript every subsequent word begins with an uppercase
+                letter
+                *common/best practice*</li>
+            <li>Avoid using one letter identifiers</li>
+            <li>Always use indetifiers that describe meaning, organize your thoughts and name them accordingly</li>
+
+        </ul>
+        </p>
+        <hr>
+
+    </div>
+
+</body>
+
+</html>
+
+-CSS-
+
+h1 { text-align: center;
+color: brown;
+font-size: 3em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h4 {
+    color: darkcyan;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.primType {
+    color: rebeccapurple;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.javaNum {
+    color: blue;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.javNum ,li {
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.varLet {
+    color: blue;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.const {
+    color: blue;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bool {
+    color: blue;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.varName {
+    color: blue;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
